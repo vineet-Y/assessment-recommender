@@ -4,7 +4,7 @@ import re
 import requests
 import streamlit as st
 
-API_URL = os.getenv("API_URL", "http://localhost:8000")
+API_URL = os.getenv("API_URL", "https://assessment-recommender-x76b.onrender.com")
 
 st.set_page_config(page_title="SHL Assessment Recommender", page_icon="🧭", layout="centered")
 st.title("SHL Assessment Recommender")
